@@ -56,6 +56,8 @@ class Owner
    
    pets.each {|pet| pet.mood = "nervous"}
    pets.each {|pet| pet.owner = nil}
-   
+ end
+ 
+ def list_pets
  end
 end
