@@ -55,7 +55,7 @@ class Owner
    pets = self.dogs + self.cats
    
    pets.each {|pet| pet.mood = "nervous"}
-   pets.each {|pet| pet.owner = "nil"}
+   pets.each {|pet| pet.owner = nil}
    
  end
 end
